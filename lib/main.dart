@@ -38,10 +38,10 @@ final GoRouter _router = GoRouter(
           },
             routes: <RouteBase>[
               GoRoute(
-                  path: 'map_two',
-                  builder: (BuildContext context, GoRouterState state) {
-                    return const MapTwoScreen();
-                  },
+                path: 'map_two',
+                builder: (BuildContext context, GoRouterState state) {
+                  return const MapTwoScreen();
+                },
               )
             ],
         ),
